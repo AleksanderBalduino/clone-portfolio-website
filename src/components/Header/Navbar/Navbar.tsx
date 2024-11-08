@@ -5,9 +5,9 @@ export function Navbar() {
     return (
         <nav className="flex items-center">
             <ul className="grid grid-cols-3 gap-x-8">
-                <NavbarLink path="/" title="home" />
-                <NavbarLink path="/projetos" title="projetos" />
-                <NavbarLink path="/contato" title="contato" />
+                <NavbarLink path="/clone-portfolio-website/" title="home" />
+                <NavbarLink path="/clone-portfolio-website/projetos" title="projetos" />
+                <NavbarLink path="/clone-portfolio-website/contato" title="contato" />
             </ul>
         </nav>
     );

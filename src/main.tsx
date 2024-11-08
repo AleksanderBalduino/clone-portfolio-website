@@ -22,13 +22,13 @@ import './index.css'
 
 const router = createBrowserRouter([
     { 
-        path: '/',
+        path: '/clone-portfolio-website/',
         element: <App />,
         errorElement: <ErrorPage />,
         children: [
-            { path: '/', element: <HomePage /> },
-            { path: '/projetos', element: <Projetos /> },
-            { path: '/contato', element: <Contato /> },
+            { path: '/clone-portfolio-website/', element: <HomePage /> },
+            { path: '/clone-portfolio-website/projetos', element: <Projetos /> },
+            { path: '/clone-portfolio-website/contato', element: <Contato /> },
         ]
     }
 ])
